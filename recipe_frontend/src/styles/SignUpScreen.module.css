@@ -1,0 +1,114 @@
+.signup {}
+
+.title {
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  font-size: 2rem;
+  color: var(--primary);
+}
+.subtitle {
+  font-family: var(--font-poppins);
+  font-size: 1rem;
+  color: var(--accent);
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.form { margin-top: 1rem; }
+
+.inputField {
+  margin-bottom: 1.2rem;
+  display: flex;
+  flex-direction: column;
+}
+.inputField label {
+  font-family: var(--font-poppins);
+  font-size: 0.95rem;
+  margin-bottom: 6px;
+  color: var(--accent);
+}
+.inputField input {
+  font-family: var(--font-poppins);
+  font-size: 1rem;
+  padding: 12px 14px;
+  border: 1.5px solid #d9d9d9;
+  border-radius: 10px;
+  background: transparent;
+}
+
+.acceptTerms {
+  display: flex;
+  align-items: center;
+  gap: 0.65rem;
+  margin: 0.4rem 0 1.2rem 0;
+}
+.acceptTerms input[type=checkbox] {
+  width: 18px; height: 18px;
+  accent-color: var(--secondary);
+}
+.termsLabel {
+  color: var(--secondary);
+  font-size: 0.98rem;
+}
+
+.primaryBtn {
+  width: 100%;
+  padding: 0.85rem 1rem;
+  border-radius: 10px;
+  background: var(--primary);
+  color: #fff;
+  font-family: var(--font-poppins);
+  font-size: 1.15rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.socialDivider {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 2rem 0 1rem 0;
+}
+.line {
+  flex: 1;
+  height: 1px;
+  background: #d9d9d9;
+  margin: 0 0.5rem;
+}
+.caption {
+  text-align: center;
+  min-width: 100px;
+  color: #d9d9d9;
+}
+
+.socialBtns {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.socialBtn {
+  width: 44px; height: 44px;
+  border-radius: 10px; border: none;
+  background: #fff;
+  box-shadow: 0 2px 7px #dedede;
+  cursor: pointer;
+  font-weight: bold;
+}
+.google { color: #4caf50; }
+.facebook { color: #035b81; }
+
+.already {
+  font-family: var(--font-poppins);
+  font-size: 0.93rem;
+  color: #757575;
+  margin-top: 1rem;
+  text-align: center;
+}
+
+@media (max-width:600px) {
+  .primaryBtn, .inputField input { font-size: 1rem;}
+}

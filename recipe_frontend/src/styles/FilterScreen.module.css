@@ -1,0 +1,68 @@
+.filter {}
+
+.title {
+  font-family: var(--font-poppins);
+  font-size: 1.5rem;
+  color: var(--primary);
+  margin-bottom: 1rem;
+  font-weight: 600;
+}
+
+.section { margin-bottom: 2rem; }
+
+.group {
+  margin-bottom: 1.1rem;
+}
+.label {
+  font-family: var(--font-poppins);
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--accent);
+  margin-bottom: 0.5rem;
+  display: inline-block;
+}
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.4rem;
+}
+.chip {
+  border-radius: 10px;
+  font-family: var(--font-poppins);
+  font-size: 1rem;
+  padding: 4px 13px;
+  border: 1.5px solid var(--secondary);
+  cursor: pointer;
+  background: #fff;
+  color: var(--secondary);
+  outline: none;
+}
+.chipFilled {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+}
+.chipOutline {}
+
+.star {
+  margin-left: 4px;
+}
+
+.primaryBtn {
+  width: 100%;
+  padding: 0.65rem 1rem;
+  border-radius: 10px;
+  background: var(--accent);
+  color: #fff;
+  font-family: var(--font-poppins);
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  margin: 0.8rem 0 0 0;
+}
+
+@media (max-width:600px) {
+  .chip, .primaryBtn { font-size: .97rem; }
+}
